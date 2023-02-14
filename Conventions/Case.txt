@@ -1,0 +1,5 @@
+1. PascalCase
+
+2. camelCase
+
+3. snake_case
