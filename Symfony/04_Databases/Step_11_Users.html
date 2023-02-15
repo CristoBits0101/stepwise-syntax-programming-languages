@@ -1,0 +1,19 @@
+<!-- we create a user and give him project privileges -->
+<ol>
+    <!-- CMD -->
+    <li>
+        mysql -u root -p
+    </li>
+    <!-- new user as administrator -->
+    <li>
+        CREATE USER 'name_user'@'localhost' IDENTIFIED BY 'password_data';
+    </li>
+    <!-- assign all privileges -->
+    <li>
+        GRANT ALL PRIVILEGES ON * . * TO 'name_user'@'localhost';
+    </li>
+    <!--  -->
+    <li>
+        FLUSH  PRIVILEGES;
+    </li>
+</ol>
